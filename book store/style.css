@@ -1,0 +1,46 @@
+.gift {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.gift img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    font-family: Arial, sans-serif; /* or any other preferred font */
+    background-color: #198a19; /* Set background color to light gray */
+    color: #333; /* Set text color to dark gray */
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4f2b2b; /* Set menu background color to light gray */
+    padding: 50px;
+}
+.menu a {
+    text-decoration: none;
+    color: #492674; /* Set menu text color to dark gray */
+}
+.menu a:hover {
+    color: #666; /* Set menu text color on hover to slightly darker gray */
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+button {
+    background-color: #4CAF50; /* Set button background color to green */
+    color: #af1010; /* Set button text color to white */
+    padding: 10px 20px; /* Add padding to button */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-top: 10px; /* Add margin to button */
+    display: block; /* Make button a block element */
+    margin: 0 auto; /* Center align button */
+}
+button:hover {
+    background-color: #45a049; /* Darken button background color on hover */
+}
